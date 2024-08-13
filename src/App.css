@@ -1,0 +1,165 @@
+.app-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.score-timer-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.score-container {
+  margin-right: 20px;
+}
+
+.score {
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.score-value {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer-icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.timer {
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+.match-image {
+  width: 300px;
+  height: 300px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tab-item {
+  margin-right: 10px;
+}
+
+.tab-button {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.active-tab {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.thumbnail-item {
+  margin: 10px;
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.game-over-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trophy {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.final-score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.play-again-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.play-again-button img {
+  width: 20px;
+  margin-right: 10px;
+}
